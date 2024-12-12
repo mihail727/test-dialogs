@@ -1,10 +1,14 @@
 <script setup lang="ts"></script>
 
 <template>
-	<div>
-		default layout
+	<div :class="$style.defaultLayout">
 		<slot />
 	</div>
 </template>
 
-<style lang="scss" module></style>
+<style lang="scss" module>
+.defaultLayout {
+	width: 375px;
+	justify-self: center;
+}
+</style>

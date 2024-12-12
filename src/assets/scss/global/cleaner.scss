@@ -81,6 +81,7 @@ button,
 [type='submit'] {
 	appearance: button;
 	border: none;
+	cursor: pointer;
 }
 
 button::-moz-focus-inner,
